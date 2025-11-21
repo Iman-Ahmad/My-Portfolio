@@ -297,6 +297,9 @@ footer {
 
 /* Responsive behavior */
 @media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
   .hero {
     flex-direction: column;  /* stack vertically on small screens */
     text-align: center;
